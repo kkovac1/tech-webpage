@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  color: white;
+
+  .links {
+    margin: 0 5rem;
+
+    a {
+      margin: 0 2rem;
+      font-size: 22px;
+      color: #adadad;
+      text-decoration: none;
+    }
+  }
+
+  .icons {
+    span {
+      margin: 0 1.5rem;
+
+    }
+  }
+}

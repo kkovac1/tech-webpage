@@ -9,6 +9,7 @@ import { VisionPageComponent } from './pages/vision-page/vision-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { RouterModule } from '@angular/router';
 
+
 @NgModule({
   declarations: [
     AppComponent,
