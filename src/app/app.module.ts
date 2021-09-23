@@ -8,6 +8,7 @@ import { TeamPageComponent } from './pages/team-page/team-page.component';
 import { VisionPageComponent } from './pages/vision-page/vision-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { RouterModule } from '@angular/router';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

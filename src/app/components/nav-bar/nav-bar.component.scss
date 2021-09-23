@@ -7,21 +7,55 @@
   width: 100%;
   color: white;
 
+  .logo {
+    margin: 0 3rem;
+  }
+
   .links {
     margin: 0 5rem;
+
+    li {
+      display: inline-block;
+
+    }
+    a {
+      display: inline-block;
+
+      &:after {
+        content: "";
+        display: block;
+        margin: auto;
+        height: 3px;
+        width: 0px;
+        background: transparent;
+        transition: width 0.5s ease, background-color 0.5s ease;
+      }
+
+      &:hover:after {
+        width: 100%;
+        background: #ffe200;
+      }
+    }
 
     a {
       margin: 0 2rem;
       font-size: 22px;
       color: #adadad;
       text-decoration: none;
+      transition: color 0.5s;
+
+      &:hover {
+        color: white;
+      }
     }
   }
 
   .icons {
-    span {
-      margin: 0 1.5rem;
-
+    margin-right: 3rem;
+    fa-icon {
+      font-size: 1.6rem;
+      margin: 0 1rem;
+      cursor: pointer;
     }
   }
 }
