@@ -12,10 +12,10 @@
   </div>
 </div>
 
-<div class="introducing">
-  <span class="title">INTRODUCING</span>
-  <div class="introducing-content">
-    <div style="width: 30%">
+<div class="custom-container">
+  <div class="row align-items-center">
+    <div class="col-6">
+      <span class="title">INTRODUCING</span>
       <h1>The Film</h1>
       <p class="sub-text">
         Feel The Flow is a film about manifesting dreams into reality - we
@@ -35,32 +35,112 @@
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum
       </p>
+
       <button style="margin-top: 1.5rem" class="btn-learn-more">
         LEARN MORE
       </button>
     </div>
-    <img
-      src="https://images.alphacoders.com/483/483687.jpg"
-      height="300"
-      width="500"
-      alt=""
-    />
+
+    <div style="text-align: center" class="col-6 justify-content-center">
+      <img
+        style="max-height: 600px"
+        src="https://images.alphacoders.com/483/483687.jpg"
+        class="img-fluid"
+      />
+    </div>
   </div>
 </div>
 
-<div class="updates-section">
-  <div style="margin-bottom: 1rem" class="updates-text">
-    <h2>Sign me up for updates!</h2>
-    <p>
-      If you would like to learn more and support our vision, check out our page
-      where you'll find trailers, director's commentary and tons of ways to
-      support the cause. You can also join our mailing list bellow to stay
-      informet !
-    </p>
-  </div>
+<div class="container-fluid">
+  <div class="row updates-section">
+    <div style="margin-bottom: 1rem" class="updates-text">
+      <h2>Sign me up for updates!</h2>
+      <p>
+        If you would like to learn more and support our vision, check out our
+        page where you'll find trailers, director's commentary and tons of ways
+        to support the cause. You can also join our mailing list bellow to stay
+        informet !
+      </p>
+    </div>
 
-  <div class="form">
-    <input style="margin-right: 1rem" placeholder="Email address" type="text" />
-    <button class="btn-learn-more">LEARN MORE</button>
+    <div class="form">
+      <input
+        style="margin-right: 1rem"
+        placeholder="Email address"
+        type="text"
+      />
+      <button class="btn-learn-more">SUBSCRIBE</button>
+    </div>
+  </div>
+</div>
+
+<div class="custom-container">
+  <div class="row align-items-center">
+    <div style="text-align: center" class="col-6 justify-content-center">
+      <img
+        style="max-height: 600px"
+        src="https://cdn.decoist.com/wp-content/uploads/2019/12/Meeting-room-inside-the-office-with-green-accent-wall.jpg"
+        class="img-fluid"
+      />
+    </div>
+
+    <div class="col-6">
+      <span class="title">INTRODUCING</span>
+      <h1>Our story</h1>
+
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum
+      </p>
+      <button style="margin-top: 1.5rem" class="btn-learn-more">
+        LEARN MORE
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row footer">
+    <div class="col">
+      <h2>Tech</h2>
+      <p>
+        We belive that art and technology should work to the benefit of everyone
+        involved
+      </p>
+    </div>
+
+    <div class="col menu">
+      <h2><span>MENU</span></h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Mission</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms Of Use</a></li>
+      </ul>
+    </div>
+
+    <div class="col contact-us">
+      <h2><span>CONTACT US</span></h2>
+      <ul>
+        <li><fa-icon style="margin-right: 1rem" [icon]="envelope"></fa-icon>team@tech.com</li>
+        <li><fa-icon style="margin-right: 1rem" [icon]="phone"></fa-icon>123 - 456 - 7890</li>
+      </ul>
+    </div>
+
+    <div class="col follow-us">
+      <h2><span>FOLLOW US</span></h2>
+      <fa-icon style="margin-right: 1rem" [icon]="facebook"></fa-icon>
+      <fa-icon style="margin: 0 1rem" [icon]="instagram"></fa-icon>
+      <fa-icon style="margin: 0 1rem" [icon]="twitter"></fa-icon>
+      <fa-icon style="margin-left: 1rem" [icon]="youtube"></fa-icon>
+    </div>
   </div>
 </div>

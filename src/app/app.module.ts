@@ -9,6 +9,7 @@ import { VisionPageComponent } from './pages/vision-page/vision-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { RouterModule } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
